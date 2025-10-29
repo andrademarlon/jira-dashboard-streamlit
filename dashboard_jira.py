@@ -180,7 +180,7 @@ if jql:
                 "História Relacionada (Resumo)": "História Título"
             })
             
-            st.info(f"Mostrando **{len(df_bugsprints_vinculados)}** Bugsprints vinculados a uma História.")
+            st.info(f"Mostrando **{len(df_bugsprints_vinculados)}** Bugsprints vinculados ás Histórias.")
             
             st.dataframe(df_bugsprints_display, use_container_width=True, hide_index=True)
             
