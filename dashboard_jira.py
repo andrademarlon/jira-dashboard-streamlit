@@ -140,7 +140,7 @@ def buscar_dados_jira(jql):
 # ==============================
 # INTERFACE STREAMLIT
 # ==============================
-st.set_page_config(page_title="Dashboard Jira - Quantidade por Responsável", layout="wide")
+st.set_page_config(page_title="Dashboard Jira - Quantidade por Responsável - Attract", layout="wide")
 st.title("📊 Dashboard Jira - Quantidade de Atividades por Responsável")
 
 # Certifique-se que JIRA_DOMAIN, JIRA_EMAIL, etc. estão definidos antes de executar esta linha
