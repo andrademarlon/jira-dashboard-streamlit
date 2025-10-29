@@ -174,7 +174,7 @@ if jql:
                 "História Relacionada (Key)",
                 "História Relacionada (Resumo)"
             ]].rename(columns={
-                "Chave": "Bugsprint",
+                "Chave": "ID",
                 "Resumo": "Título do Bug",
                 "História Relacionada (Key)": "História Key",
                 "História Relacionada (Resumo)": "História Título"
