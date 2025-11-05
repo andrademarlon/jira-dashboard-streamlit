@@ -13,7 +13,7 @@ JIRA_API_TOKEN = st.secrets["jira"]["api_token"]
 FILTER_ID = st.secrets["jira"]["filter_id"]
 
 # JQL FORNECIDO PELO USUÁRIO (AGORA USADO DIRETAMENTE)
-JQL_DIRETO = 'project = ATT AND issuetype IN ("BUG - SPRINT", "BUG - SPRINT", "Débito Técnico", "Débito Técnico", História, Melhoria, Bug, Tarefa) AND status IN (Done, "IN ASSISTED OPERATION", "IN CODING", "PENDING APPROVAL", "Pending Estimate", "READY TO DEPLOY (SDXOK)", "To Do", "EM HOMOLOGAÇÃO (SdBx)", "EM HOMOLOGAÇÃO (STG)", "Evidência DEV (STG)", "PRONTO PARA SANDBOX", "TESTE DEV (STG)") AND assignee IN (5e1c688dbf70110ca24c7c73, 712020:1547646a-3907-450f-ad34-f6da0c756b82, 712020:7a7bab5f-220a-4380-9987-741f797b6ca0, 5e3c700e3f647d0c99d80da0, 62c2df061bb561c33794dfd0, 5d2339a2831d7b0bcfbe1858, empty, currentUser()) AND sprint = 2015 ORDER BY updated DESC'
+JQL_DIRETO = 'project = ATT AND issuetype IN ("BUG - SPRINT", "BUG - SPRINT", "Débito Técnico", "Débito Técnico", História, Melhoria, Bug, Tarefa) AND status IN (Done, "IN ASSISTED OPERATION", "IN CODING", "PENDING APPROVAL", "Pending Estimate", "READY TO DEPLOY (SDXOK)", "To Do", "EM HOMOLOGAÇÃO (SdBx)", "EM HOMOLOGAÇÃO (STG)", "Evidência DEV (STG)", "PRONTO PARA SANDBOX", "TESTE DEV (STG)") AND assignee IN (5e1c688dbf70110ca24c7c73, 712020:1547646a-3907-450f-ad34-f6da0c756b82, 712020:7a7bab5f-220a-4380-9987-741f797b6ca0, 5e3c700e3f647d0c99d80da0, 62c2df061bb561c33794dfd0, 5d2339a2831d7b0bcfbe1858, empty, currentUser()) AND sprint = 2017 ORDER BY updated DESC'
 
 
 # ====================================================
