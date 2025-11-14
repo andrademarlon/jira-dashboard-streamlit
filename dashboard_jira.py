@@ -419,4 +419,4 @@ if jql:
             fig_bugs.update_traces(textposition="outside")
             st.plotly_chart(fig_bugs, use_container_width=True)
         else:
-            st.info(f"Nenhum item de 'BUG - SPRINT' encontrado que esteja **vinculado a uma História** no filtro atual.)")
+            st.info(f"Nenhum item de 'BUG - SPRINT' encontrado que esteja **vinculado a uma História** no filtro atual.")
