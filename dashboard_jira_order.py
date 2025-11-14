@@ -158,7 +158,7 @@ def buscar_dados_jira(jql):
 # INTERFACE STREAMLIT
 # ==============================
 st.set_page_config(page_title="Dashboard Jira - Bugsprints e Detalhes", layout="wide")
-st.title("📊 Painel de Indicadores - Dashboard Jira - ATTRACT")
+st.title("📊 Painel de Indicadores - Dashboard Jira - ORDER")
 
 jql = JQL_DIRETO
 
