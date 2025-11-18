@@ -15,7 +15,9 @@ JIRA_API_TOKEN = st.secrets["jira"]["api_token"]
 FILTER_ID = st.secrets["jira"]["filter_id"]
 
 # JQL FORNECIDO PELO USUÁRIO (AGORA USADO DIRETAMENTE)
-JQL_DIRETO = 'project = ODR AND issuetype IN ("BUG - SPRINT", "Débito Técnico", "História", "Melhoria", "Bug", "Tarefa", "Suíte de Teste", "Subteste") AND status IN (Done, "IN ASSISTED OPERATION", "IN CODING", "PENDING APPROVAL", "Pending Estimate", "READY TO DEPLOY (SDXOK)", "To Do", "EM HOMOLOGAÇÃO (SdBx)", "EM HOMOLOGAÇÃO (STG)", "Evidência DEV (STG)", "PRONTO PARA SANDBOX", "TESTE DEV (STG)", "REPROVADO (STG)","REEXECUCAO (STG)") AND assignee IN (61327d3f98a977006b1499ca, 712020:44938e36-874b-4f7c-ad56-f58caa54b2a4, 60d322e0c90cb200686479f0, 62026e8cc4e2c9006ae5ff19, 712020:7a7bab5f-220a-4380-9987-741f797b6ca0, 62c2df061bb561c33794dfd0, 613fa2fe54762c0069281495, 5faa8fef14da2600684768e0, 5e1c688dbf70110ca24c7c73, empty, currentUser()) AND sprint = 2015 ORDER BY updated DESC'
+JQL_DIRETO = 'project = ODR AND issuetype IN ("BUG - SPRINT", "Débito Técnico", "História", "Melhoria", "Bug", "Tarefa", "Suíte de Teste", "Subteste") 
+AND status IN (Done, "IN ASSISTED OPERATION", "IN CODING", "PENDING APPROVAL", "Pending Estimate", "READY TO DEPLOY (SDXOK)", "To Do", "EM HOMOLOGAÇÃO (SdBx)", "EM HOMOLOGAÇÃO (STG)", "Evidência DEV (STG)", "PRONTO PARA SANDBOX", "TESTE DEV (STG)", "REPROVADO (STG)","REEXECUCAO (STG)") AND assignee IN 
+(61327d3f98a977006b1499ca, 712020:44938e36-874b-4f7c-ad56-f58caa54b2a4, 60d322e0c90cb200686479f0, 62026e8cc4e2c9006ae5ff19, 712020:7a7bab5f-220a-4380-9987-741f797b6ca0, 62c2df061bb561c33794dfd0, 613fa2fe54762c0069281495, 5faa8fef14da2600684768e0, 5e1c688dbf70110ca24c7c73, 5e3c700e3f647d0c99d80da0, empty, currentUser()) AND sprint = 2015 ORDER BY updated DESC'
 
 # Status que consideramos como "Entregue" para o cálculo do THROUGHPUT
 STATUS_ENTREGUE = ["Concluído"]
