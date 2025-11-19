@@ -255,7 +255,7 @@ if jql:
         with col3:
             st.subheader("Visão Geral do Filtro")
             st.metric(label="Total de Issues no Filtro", value=len(df_principal))
-            st.caption("Contagem total de issues na Sprint (exclui testes)")
+            st.caption("Contagem total de issues na Sprint")
             
         # ----------------------------------------------------
         # ⏳ DETALHAMENTO DAS TASKS PARA CÁLCULO DE LEAD TIME
